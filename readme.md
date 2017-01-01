@@ -65,7 +65,7 @@ Your service will log its output to `/var/log/$NAME.log`. Don't forget to setup 
 Yep, I'm lazy too. But still, I've written a script to automate this :)
 
 ```sh
-wget 'https://raw.github.com/gist/4275302/new-service.sh' && bash new-service.sh
+wget 'https://raw.githubusercontent.com/bmericc/sample-service-script/master/new-service.sh' && bash new-service.sh
 ```
 
 In this script I will download `service.sh` into a `tempfile`, replace some tokens, and then show you commands you should run as superuser.
